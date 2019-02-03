@@ -1,0 +1,10 @@
+Package: Glutexto
+Version: 20190202
+Description: Text editor
+Section: apps
+Priority: optional
+Maintainer: jbanes
+Architecture: mipsel
+Homepage: https://ziz.gp2x.de
+Depends:
+Source: https://github.com/jbanes/rs97-glutexto

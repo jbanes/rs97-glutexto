@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>sparrowCore.c</in>
+      <in>sparrowFile.c</in>
+      <in>sparrowFont.c</in>
+      <in>sparrowMapping.c</in>
+      <in>sparrowMath.c</in>
+      <in>sparrowMesh.c</in>
+      <in>sparrowNet.c</in>
+      <in>sparrowParticles.c</in>
+      <in>sparrowPrimitiveDrawingThread.c</in>
+      <in>sparrowPrimitiveHelperAlphaTest.c</in>
+      <in>sparrowPrimitiveHelperBlending.c</in>
+      <in>sparrowPrimitiveHelperPattern.c</in>
+      <in>sparrowPrimitiveHelperPerspective.c</in>
+      <in>sparrowPrimitiveHelperZStuff.c</in>
+      <in>sparrowPrimitiveSetPixelInclude.c</in>
+      <in>sparrowPrimitiveTexTriangleInclude.c</in>
+      <in>sparrowPrimitiveTriangleInclude.c</in>
+      <in>sparrowPrimitives.c</in>
+      <in>sparrowPrimitivesAsm.c</in>
+      <in>sparrowRenderer.c</in>
+      <in>sparrowSound.c</in>
+      <in>sparrowSprite.c</in>
+      <in>sparrowText.c</in>
+      <in>test_cube.c</in>
+      <in>test_fill.c</in>
+      <in>test_gears.c</in>
+      <in>test_mapping.c</in>
+      <in>test_mesh.c</in>
+      <in>test_parallax.c</in>
+      <in>test_primitives.c</in>
+      <in>test_sprites.c</in>
+      <in>test_target.c</in>
+      <in>test_text.c</in>
+      <in>test_tube.c</in>
+      <in>test_yinyang.c</in>
+      <in>testfile.c</in>
+      <in>testnet.c</in>
+      <in>testnet_terminal_client.c</in>
+      <in>testnet_terminal_server.c</in>
+      <in>testreal3d.c</in>
+      <in>testsimple.c</in>
+      <in>testsparrow.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>./configure CC=${IDE_CC} CXX=${IDE_CXX} CFLAGS="-g3 -gdwarf-2" CXXFLAGS="-g3 -gdwarf-2"</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="sparrowCore.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowFile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowFont.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowMapping.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowMath.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowMesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowNet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowParticles.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveDrawingThread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveHelperAlphaTest.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveHelperBlending.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveHelperPattern.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveHelperPerspective.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveHelperZStuff.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveSetPixelInclude.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveTexTriangleInclude.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="sparrowPrimitiveTriangleInclude.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitives.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowPrimitivesAsm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowRenderer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowSound.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowSprite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sparrowText.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_cube.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_fill.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_gears.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_mapping.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_mesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_parallax.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_primitives.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_sprites.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_target.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_text.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_tube.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test_yinyang.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testfile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testnet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testnet_terminal_client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testnet_terminal_server.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testreal3d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testsimple.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="testsparrow.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

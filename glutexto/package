@@ -1,0 +1,20 @@
+#!/bin/bash
+
+cp build/opendingux/glutexto/glutexto ipkg/home/retrofw/apps/glutexto/glutexto.dge
+cp build/opendingux/glutexto/libsparrow3d.so ipkg/home/retrofw/apps/glutexto/libsparrow3d.so
+cp -R data ipkg/home/retrofw/apps/glutexto/
+cp -R font ipkg/home/retrofw/apps/glutexto/
+cd ipkg
+
+tar -czvf control.tar.gz control
+tar -czvf data.tar.gz home
+ar rv glutexto.ipk control.tar.gz data.tar.gz debian-binary
+
+cd ..
+
+mv ipkg/glutexto.ipk build/
+rm ipkg/control.tar.gz
+rm ipkg/data.tar.gz
+rm ipkg/home/retrofw/apps/glutexto/glutexto.dge
+rm -R ipkg/home/retrofw/apps/glutexto/data
+rm -R ipkg/home/retrofw/apps/glutexto/font

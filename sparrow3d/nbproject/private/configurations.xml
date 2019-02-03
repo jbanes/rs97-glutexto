@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="data">
+      </df>
+      <df name="documentation">
+        <df name="files">
+        </df>
+        <df name="index">
+        </df>
+        <df name="javascript">
+        </df>
+        <df name="search">
+        </df>
+        <df name="styles">
+        </df>
+      </df>
+      <df name="font">
+      </df>
+      <df name="target-files">
+      </df>
+      <df name="wiki">
+        <df name="images">
+        </df>
+      </df>
+      <in>sparrow3d.h</in>
+      <in>sparrowCore.c</in>
+      <in>sparrowCore.h</in>
+      <in>sparrowDefines.h</in>
+      <in>sparrowFile.c</in>
+      <in>sparrowFile.h</in>
+      <in>sparrowFont.c</in>
+      <in>sparrowFont.h</in>
+      <in>sparrowMapping.c</in>
+      <in>sparrowMapping.h</in>
+      <in>sparrowMath.c</in>
+      <in>sparrowMath.h</in>
+      <in>sparrowMesh.c</in>
+      <in>sparrowMesh.h</in>
+      <in>sparrowNet.c</in>
+      <in>sparrowNet.h</in>
+      <in>sparrowParticles.c</in>
+      <in>sparrowParticles.h</in>
+      <in>sparrowPrimitiveDrawingThread.c</in>
+      <in>sparrowPrimitiveDrawingThread.h</in>
+      <in>sparrowPrimitiveHelperAlphaTest.c</in>
+      <in>sparrowPrimitiveHelperBlending.c</in>
+      <in>sparrowPrimitiveHelperPattern.c</in>
+      <in>sparrowPrimitiveHelperPerspective.c</in>
+      <in>sparrowPrimitiveHelperZStuff.c</in>
+      <in>sparrowPrimitiveSetPixelInclude.c</in>
+      <in>sparrowPrimitiveTexTriangleInclude.c</in>
+      <in>sparrowPrimitiveTriangleInclude.c</in>
+      <in>sparrowPrimitives.c</in>
+      <in>sparrowPrimitives.h</in>
+      <in>sparrowPrimitivesAsm.c</in>
+      <in>sparrowPrimitivesAsm.h</in>
+      <in>sparrowRenderer.c</in>
+      <in>sparrowRenderer.h</in>
+      <in>sparrowSound.c</in>
+      <in>sparrowSound.h</in>
+      <in>sparrowSprite.c</in>
+      <in>sparrowSprite.h</in>
+      <in>sparrowText.c</in>
+      <in>sparrowText.h</in>
+      <in>test_cube.c</in>
+      <in>test_cube.h</in>
+      <in>test_fill.c</in>
+      <in>test_fill.h</in>
+      <in>test_gears.c</in>
+      <in>test_gears.h</in>
+      <in>test_mapping.c</in>
+      <in>test_mapping.h</in>
+      <in>test_mesh.c</in>
+      <in>test_mesh.h</in>
+      <in>test_parallax.c</in>
+      <in>test_primitives.c</in>
+      <in>test_primitives.h</in>
+      <in>test_sprites.c</in>
+      <in>test_sprites.h</in>
+      <in>test_target.c</in>
+      <in>test_target.h</in>
+      <in>test_text.c</in>
+      <in>test_text.h</in>
+      <in>test_tube.c</in>
+      <in>test_tube.h</in>
+      <in>test_yinyang.c</in>
+      <in>test_yinyang.h</in>
+      <in>testfile.c</in>
+      <in>testnet.c</in>
+      <in>testnet_terminal_client.c</in>
+      <in>testnet_terminal_server.c</in>
+      <in>testreal3d.c</in>
+      <in>testsimple.c</in>
+      <in>testsparrow.c</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>4</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
