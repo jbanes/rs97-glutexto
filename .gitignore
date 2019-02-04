@@ -1,5 +1,6 @@
 **/*.o
 **/.DS_Store
 nbproject/**
-**/*,ipk
+**/*.ipk
 **/*.so
+sparrow3d/build/**

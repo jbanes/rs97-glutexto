@@ -591,7 +591,6 @@ inline static int spHandleEvent( void ( *spEvent )( SDL_Event *e ) )
 					spLastAxisType = 0;
 					break;
 			#ifdef DINGUX
-				case 51:
 				case SDLK_RETURN:
 					spGenericInput.button[SP_BUTTON_START] = 1;
 					break;
